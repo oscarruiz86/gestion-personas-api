@@ -1,0 +1,167 @@
+{
+  "info": {
+    "_postman_id": "6c558abe-2093-4ae9-b8dc-b57923084a0e",
+    "name": "GestionPersonas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "7646720"
+  },
+  "item": [
+    {
+      "name": "Error por Regla V",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"documentoIdentidad\": \"CC52345678\",\r\n  \"nombres\": \"Diana Marcela\",\r\n  \"apellidos\": \"Guzman Torres\",\r\n  \"fechaNacimiento\": \"1990-05-10T00:00:00Z\",\r\n  \"telefonos\": [\"3101111111\", \"3112222222\", \"3123333333\"],\r\n  \"correos\": [\"diana1@email.com\", \"diana2@email.com\", \"diana3@email.com\"],\r\n  \"direccionesFisicas\": [\"Av Suba # 115-50\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7077/api/personas",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7077",
+          "path": [
+            "api",
+            "personas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Error por Regla IV",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"documentoIdentidad\": \"PAS987654\",\r\n  \"nombres\": \"Maria Jose\",\r\n  \"apellidos\": \"Lopez\",\r\n  \"fechaNacimiento\": \"1995-12-01T00:00:00Z\",\r\n  \"telefonos\": [\"3209998877\"],\r\n  \"correos\": [],\r\n  \"direccionesFisicas\": []\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7077/api/personas",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7077",
+          "path": [
+            "api",
+            "personas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Error por Regla III",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"documentoIdentidad\": \"10203040-A*\",\r\n  \"nombres\": \"Carlos 3ra\",\r\n  \"apellidos\": \"Mendoza\",\r\n  \"fechaNacimiento\": \"1988-04-23T00:00:00Z\",\r\n  \"correos\": [\"carlos@email.com\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7077/api/personas",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7077",
+          "path": [
+            "api",
+            "personas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Error por Regla II",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"documentoIdentidad\": \"\",\r\n  \"nombres\": \"Andres\",\r\n  \"apellidos\": \"Gomez\",\r\n  \"fechaNacimiento\": \"0001-01-01T00:00:00Z\",\r\n  \"telefonos\": [\"3001112233\"],\r\n  \"correos\": [\"andres@email.com\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7077/api/personas",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7077",
+          "path": [
+            "api",
+            "personas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Ok",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"documentoIdentidad\": \"CC10184567\",\r\n  \"nombres\": \"Juan Carlos\",\r\n  \"apellidos\": \"Perez Rodriguez\",\r\n  \"fechaNacimiento\": \"1992-08-15T00:00:00Z\",\r\n  \"telefonos\": [\"3112345678\", \"6017654321\"],\r\n  \"correos\": [\"juan.perez@email.com\"],\r\n  \"direccionesFisicas\": [\"Calle 26 # 68B-45\", \"Carrera 7 # 72-10\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7077/api/personas",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7077",
+          "path": [
+            "api",
+            "personas"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
