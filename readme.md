@@ -22,9 +22,9 @@ El sistema está estructurado en 4 proyectos independientes para garantizar el d
 Para facilitar la revisión y el despliegue de la solución, se han adjuntado los siguientes artefactos en la raíz del repositorio:
 
 *  **Script SQL de la Base de Datos**: Contiene el esquema relacional normalizado.
-  *  [Descargar Script de Base de Datos SQL (GestionPersonasDB.sql)](#) *(Enlace local al archivo del repositorio)*
+  *  [Descargar Script de Base de Datos SQL (GestionPersonasDB.sql)](#) (./GestionPersonasDB.sql)
 *  **Colección de Postman**: Archivo JSON con todas las peticiones listas para validar los escenarios del servicio (Casos de éxito y respuestas controladas para cada una de las Reglas de Negocio de la I a la V).
-  *  [Descargar Colección de Postman (GestionPersonas.postman_collection.json)](#) *(Enlace local al archivo del repositorio)*
+  *  [Descargar Colección de Postman (GestionPersonas.postman_collection.json)](#) (./GestionPersonas.postman_collection.json)
 
 ---
 
